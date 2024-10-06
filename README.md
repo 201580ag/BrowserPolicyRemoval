@@ -1,5 +1,24 @@
+# BrowserPolicyRemoval
 
+이 레포지토리는 Microsoft Edge와 Google Chrome에서 관리 정책을 제거하는 배치 파일을 포함하고 있습니다. 해당 파일은 조직에서 설정한 정책으로 인해 브라우저가 "조직에서 관리"되고 있는 경우에 유용합니다.
+
+## 파일 목록
+
+- `RemoveEdgePolicies.bat`: Microsoft Edge의 정책을 삭제하는 배치 파일입니다.
+- `RemoveChromePolicies.bat`: Google Chrome의 정책을 삭제하는 배치 파일입니다.
+
+## 사용 방법
+
+1. **레포지토리를 클론하거나 ZIP 파일로 다운로드합니다.**
+2. **해당 배치 파일을 관리자 권한으로 실행합니다.**
+3. **정책이 삭제되었다는 메시지가 표시되면 브라우저를 재시작해야 합니다.**
+
+## 주의사항
+
+- 이 배치 파일은 시스템 레지스트리를 수정합니다. 따라서 사용 시 주의해야 하며, 불필요한 삭제를 방지하기 위해 사용하기 전에 중요한 데이터를 백업하는 것이 좋습니다.
+- 해당 배치 파일은 Windows 환경에서만 작동합니다.
 # **면책 조항(Disclaimer)**
+
 ### English
 By using this code, the author bears no responsibility for any issues that may arise. The usage of this code is at the user's discretion, and any consequences resulting from it are solely the responsibility of the user. The author assumes no liability for any outcomes or damages incurred from the use of this code. The user absolves the author of any accountability for losses or damages resulting from the usage of this code. By using this code, the user agrees to the following terms and acknowledges being sufficiently warned of any potential risks associated with its use:
 
